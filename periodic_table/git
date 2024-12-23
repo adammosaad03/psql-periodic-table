@@ -1,0 +1,105 @@
+    1  mkdir periodic_table
+    2  cd periodic_table
+    3  git init
+    4  git checkout -b main
+    5  chmod +x element.sh
+    6  ./element.sh
+    7  ./element.sh
+    8  ./element.sh
+    9  ./element.sh
+   10  git add element.sh
+   11  git commit -m "Initial commit"
+   12  git add element.sh
+   13  git commit -m "feat: added layout"
+   14  git log
+   15  pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
+   16  psql --username=freecodecamp --dbname=periodic_table 
+   17  pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
+   18  psql -U postgres < periodic_table.sql
+   19  cd periodic_table
+   20  ./element.sh
+   21  ./element.sh
+   22  git add element.sh
+   23  git commit -m "fix: missing parenthesses in select"
+   24  ./element.sh
+   25  ./element.sh
+   26  git add element.sh
+   27  git commit -m "fix: fixed top psql and loop"
+   28  git log
+   29  ./element.sh 4
+   30  cd periodic_table
+   31  ./element.sh 5
+   32  git add element.sh
+   33  git commit -m  "feat: removed errors just need to fix table join"
+   34  UPDATE types SET type='metal' WHERE type_id=1;
+   35  ./element.sh
+   36  ./element.sh
+   37  ./element.sh
+   38  ./element.sh
+   39  ./element.sh 4
+   40  ./element.sh
+   41  ./element.sh
+   42  ./element.sh
+   43  ./element.sh
+   44  ./element.sh
+   45  ./element.sh
+   46  ./element.sh
+   47  ./element.sh
+   48  ./element.sh
+   49  ./element.sh 4
+   50  ./element.sh
+   51  ./element.sh
+   52  ./element.sh 4
+   53  ./element.sh 4
+   54  ./element.sh
+   55  ./element.sh 1
+   56  ./element.sh 
+   57  ./element.sh 3
+   58  ./element.sh
+   59  ./element.sh 3
+   60  ./element.sh
+   61  ./element.sh 4
+   62  ./element.sh 5
+   63  ./element.sh Ne
+   64  ./element.sh Ne
+   65  ./elements.sh Ne
+   66  ./element.sh Ne
+   67  ./element.sh Ne
+   68  ./element.sh Ne
+   69  ./element.sh H
+   70  ./element.sh Hydrogen
+   71  ./element.sh 1
+   72  ./element.sh 1
+   73  ./element.sh 1
+   74  ./element.sh Hydrogen
+   75  ./element.sh
+   76  ./element.sh 4
+   77  ./elemnt.sh Ne
+   78  ./element.sh Ne
+   79  ./element.sh Ne
+   80  ./element.sh NE
+   81  ./element.sh Ne
+   82  ./element.sh 1
+   83  ./element.sh H
+   84  ./element.sh 1
+   85  ./element.sh H
+   86  ./element.sh 1
+   87  ./element.sh H
+   88  ./element.sh
+   89  ./element.sh Ne
+   90  ./element.sh 1
+   91  ./element.sh Ne
+   92  ./element.sh 1
+   93  ./element.sh 1
+   94  ./element.sh H
+   95  ./element.sh Hydrogen
+   96  git add element.sh
+   97  git commit -m "fix: fixed all"
+   98  git checkout main
+   99  git log
+  100  git add element.sh
+  101  git commit -m "feat: all good"
+  102  git add periodic_table.sql
+  103  git commit -m "fix: all good"
+  104  history > .git
+  105  history > git
